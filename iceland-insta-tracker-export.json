@@ -1,0 +1,234 @@
+{
+  "players" : {
+    "Albert Guðmundsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "20253"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 22454
+      } ],
+      "link" : "https://www.instagram.com/albertgudmundsson/"
+    },
+    "Alfreð Finnbogason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "76753"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 81485
+      } ],
+      "link" : "https://www.instagram.com/alfredfinnbogason/"
+    },
+    "Ari Freyr Skúlason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "21628"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 23612
+      } ],
+      "link" : "https://www.instagram.com/ariskulason/"
+    },
+    "Arnór Ingvi Traustason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "16976"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 17355
+      } ],
+      "link" : "https://www.instagram.com/arnoringvi/"
+    },
+    "Aron Gunnarsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "96394"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 101688
+      } ],
+      "link" : "https://www.instagram.com/arongunnarsson/"
+    },
+    "Birkir Bjarnason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "96515"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 106054
+      } ],
+      "link" : "https://www.instagram.com/birkirbjarnason/"
+    },
+    "Birkir Már Sævarsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "7559"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 7922
+      } ],
+      "link" : "https://www.instagram.com/birkir84/"
+    },
+    "Björn Bergmann Sigurðarson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : 5651
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 5741
+      } ],
+      "link" : "https://www.instagram.com/bbsigurdarson/"
+    },
+    "Emil Hallfreðsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "14939"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 15787
+      } ],
+      "link" : "https://www.instagram.com/emilhallfreds/"
+    },
+    "Frederik Schram" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "6696"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 7862
+      } ],
+      "link" : "https://www.instagram.com/frederikschram/"
+    },
+    "Gylfi Sigurðsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "180146"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 184401
+      } ],
+      "link" : "https://www.instagram.com/gylfisig23/"
+    },
+    "Hannes Þór Halldórsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "44568"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 47966
+      } ],
+      "link" : "https://www.instagram.com/hanneshalldorsson/"
+    },
+    "Hólmar Örn Eyjólfsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "15207"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 16176
+      } ],
+      "link" : "https://www.instagram.com/holmar_eyjolfsson/"
+    },
+    "Hörður Björgvin Magnússon" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "31407"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 33751
+      } ],
+      "link" : "https://www.instagram.com/hordurmagnusson/"
+    },
+    "Jóhann Berg Guðmundsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "36951"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 39928
+      } ],
+      "link" : "https://www.instagram.com/johannberggudmundsson/"
+    },
+    "Jón Daði Böðvarsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "23314"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 24732
+      } ],
+      "link" : "https://www.instagram.com/jondadib/"
+    },
+    "Kári Árnason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "567"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 567
+      } ],
+      "link" : "https://www.instagram.com/kariarnason/"
+    },
+    "Ragnar Sigurðsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "37182"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 41012
+      } ],
+      "link" : "https://www.instagram.com/sykurson/"
+    },
+    "Rúnar Alex Rúnarsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "6874"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 7570
+      } ],
+      "link" : "https://www.instagram.com/runaralex/"
+    },
+    "Rúrik Gíslason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "319994"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 428081
+      } ],
+      "link" : "https://www.instagram.com/rurikgislason/"
+    },
+    "Samúel Friðjónsson" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "9970"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 10366
+      } ],
+      "link" : "https://www.instagram.com/fridjonsson22/"
+    },
+    "Sverrir Ingi Ingason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "8257"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 8833
+      } ],
+      "link" : "https://www.instagram.com/ingason15/"
+    },
+    "Ólafur Ingi Skúlason" : {
+      "data" : [ {
+        "date" : "17.06.2018",
+        "followers" : "1501"
+      }, {
+        "date" : "18.06.2018",
+        "followers" : 2588
+      } ],
+      "link" : "https://www.instagram.com/olafurskulason16/"
+    }
+  }
+}
