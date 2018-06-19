@@ -54,15 +54,18 @@ function getPlayerData(player) {
   }
 }
 
-function drawBarChart() {
+function drawBarChart(playerId, playerName) {
+  if (!playerName) {
+    playerName = "Albert Guðmundsson";
+  }
   var data = new google.visualization.DataTable();
   data.addColumn("string", "Date");
   data.addColumn("number", "Follower count");
 
-  data.addRows(getPlayerData("rurik"));
+  data.addRows(getPlayerData(playerId || "albert"));
 
   var options = {
-    title: "Player Name",
+    title: playerName,
     hAxis: {
       title: "Date"
     },
@@ -78,69 +81,21 @@ function drawBarChart() {
   chart.draw(data, options);
 }
 
-function drawBarChart2() {
-  const col_1_data = GoogleCharts.api.visualization.arrayToDataTable([
-    [
-      "Chart 1",
-      "Lorem ipsum",
-      "Dolor sit",
-      "Sit amet",
-      "Sit amet",
-      "Sit amet",
-      "Sit amet"
-    ],
-    ["Chart 1", 22, 10, 68, 333, 377, 444]
-  ]);
-
-  const col_1_options = {
-    legend: {
-      position: "bottom"
-      /*  textStyle: {
-        color: "black",
-        fontSize: 13,
-        fontName: "EncodeSans"
-      } */
-    },
-    //bar: { groupWidth: "25%" },
-    //colors: ["#808e97", "#b9c3ca", "#dde4e8"],
-    isStacked: false
-    //chartArea: { left: 0, top: 0, width: "100%", height: "80%" },
-    //axisTitlesPosition: "none"
-    /*     hAxis: {
-      textPosition: "none",
-      gridlines: { color: "transparent" },
-      baselineColor: "transparent"
-    },
-    vAxis: {
-      textPosition: "none",
-      gridlines: { color: "transparent" },
-      baselineColor: "transparent"
-    } */
-  };
-
-  const col_1_chart = new GoogleCharts.api.visualization.ColumnChart(
-    document.getElementById("chart2")
-  );
-  col_1_chart.draw(col_1_data, col_1_options);
-}
-
-function drawLineChart() {
-  /* var data = new google.visualization.DataTable();
-  data.addColumn("number", "X");
-  data.addColumn("number", "Dogs"); */
-  var data = new google.visualization.DataTable();
-  data.addColumn("string", "Day");
-  data.addColumn("number", "Followers");
-
-  data.addRows(getPlayerData("gylfi"));
-
-  var options = {
-    width: 1500,
-    height: 500
-  };
-  var chart = new google.visualization.LineChart(
-    document.getElementById("chart2")
-  );
-
-  chart.draw(data, options);
-}
+document.onreadystatechange = () => {
+  if (document.readyState === "complete") {
+    // document ready
+    var playerSelect = document.getElementById("player-select");
+    console.log("#### playerSelect", playerSelect);
+    playerSelect.addEventListener("change", event => {
+      console.log(
+        "#### event.",
+        event.target.selectedIndex,
+        event.target.options[event.target.selectedIndex].text
+      );
+      drawBarChart(
+        event.target.value,
+        event.target.options[event.target.selectedIndex].text
+      );
+    });
+  }
+};
